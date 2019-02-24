@@ -16,7 +16,6 @@
         <text name="input_GS_AXIS_WIDTH_1" text="Zvýšit šířku"/>
         <text name="input_GS_AXIS_WIDTH_2" text="Snížit šířku"/>
 
-        <text name="input_GS_SHIFT_RESET" text="Resetovat posun"/>
         <text name="input_GS_ENABLE_STEERING" text="Systém řízení GPS"/>
         <text name="input_GS_SETPOINT" text="Nastavit orientační bod"/>
         <text name="input_GS_TOGGLE_TERRAIN_ANGLE_SNAP" text="Uchopit úhel terénu"/>
@@ -24,6 +23,8 @@
 
         <!--Warnings-->
         <text name="guidanceSteering_warning_dropDistance" text="Pro nastavení bodu B jeďte nejméně 15 m. Momentální ujetá vzdálenost: %.2f"/>
+		<text name="guidanceSteering_warning_setWidth" text="Nejprve nastavte pracovní šířku!"/>
+        <text name="guidanceSteering_warning_createTrackFirst" text="Nejprve vytvořte nebo nahrajte stopu, než povolíte řízení GPS!"/>
 
         <!--GUI-->
         <text name="guidanceSteering_ui_settings" text="Nastavení navigace"/>
@@ -50,6 +51,7 @@
 
         <!--Warning tooltip-->
         <text name="guidanceSteering_tooltip_trackAlreadyExists" text="Název stopy: %s již existuje!"/>
+		<text name="guidanceSteering_tooltip_trackIsNotCreated" text="Chcete-li uložit údaje o stopách, nejprve vytvořte trať!"/>
 
         <!--Settings-->
         <text name="guidanceSteering_setting_showLines" text="Zobrazit vodítka"/>
@@ -58,6 +60,7 @@
         <text name="guidanceSteering_setting_width" text="Šířka"/>
         <text name="guidanceSteering_setting_widthInCrement" text="Nárust šířky"/>
         <text name="guidanceSteering_setting_autoWidth" text="Auto šířka"/>
+		<text name="guidanceSteering_setting_changeWidth" text="Nárust šířky"/>
         <text name="guidanceSteering_setting_cardinals" text="Hlavní bod"/>
 
         <text name="guidanceSteering_setting_strategy" text="Strategie vodítek"/>
